@@ -1,7 +1,7 @@
 require 'dnssd'
 require 'facets/hash/slice'
 require 'hkdf'
-require 'oj'
+require 'json'
 require 'rack'
 require 'rbnacl'
 require 'ruby_home/srp'

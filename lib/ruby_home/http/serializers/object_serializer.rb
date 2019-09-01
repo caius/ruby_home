@@ -32,7 +32,7 @@ module RubyHome
       end
 
       def serialized_json
-        Oj.dump(serializable_hash)
+        JSON.dump(serializable_hash)
       end
     end
   end
